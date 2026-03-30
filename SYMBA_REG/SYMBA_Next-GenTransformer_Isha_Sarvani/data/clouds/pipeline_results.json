@@ -1,0 +1,145 @@
+{
+  "n_test": 15,
+  "results": [
+    {
+      "filename": "II.37.1",
+      "true": "VAR_B VAR_mom <C> VAR_chi OP_add OP_mul",
+      "tf_acc": 0.3333333333333333,
+      "beam_acc": 0.0,
+      "bfgs_r2": -0.01679752989022809,
+      "gp_r2": 0.9584715182288633,
+      "gp_expr": "OP_mul OP_add OP_add OP_add VAR_B FUNC_cos OP_add VAR_chi FUNC_arcsin VAR_chi FUNC_cos OP_add"
+    },
+    {
+      "filename": "I.9.18",
+      "true": "VAR_G VAR_m1 VAR_m2 VAR_x2 <C> VAR_x1 OP_mul OP_add",
+      "tf_acc": 0.03571428571428571,
+      "beam_acc": 0.0,
+      "bfgs_r2": 0.033261474252487266,
+      "gp_r2": 0.6794485094742189,
+      "gp_expr": "OP_mul FUNC_log OP_add OP_mul VAR_m1 FUNC_log OP_add OP_add OP_mul FUNC_log FUNC_tanh VAR_z2"
+    },
+    {
+      "filename": "I.14.4",
+      "true": "<C> VAR_k_spring VAR_x <C> OP_pow OP_mul",
+      "tf_acc": 0.5,
+      "beam_acc": 0.16666666666666666,
+      "bfgs_r2": -0.0005499236457093826,
+      "gp_r2": 0.9941801875263983,
+      "gp_expr": "OP_mul VAR_k_spring OP_pow VAR_x FUNC_arcsin FUNC_tanh OP_mul FUNC_sin <C> VAR_x"
+    },
+    {
+      "filename": "I.13.4",
+      "true": "<C> VAR_m VAR_u <C> OP_pow VAR_v <C> OP_pow",
+      "tf_acc": 0.07692307692307693,
+      "beam_acc": 0.07692307692307693,
+      "bfgs_r2": -0.08332577851343115,
+      "gp_r2": 0.9638245663879529,
+      "gp_expr": "OP_mul OP_add OP_add VAR_v FUNC_log VAR_u FUNC_sin FUNC_sin FUNC_sin FUNC_sin OP_add VAR_v"
+    },
+    {
+      "filename": "I.12.5",
+      "true": "VAR_Ef VAR_q2 OP_mul",
+      "tf_acc": 0.0,
+      "beam_acc": 0.3333333333333333,
+      "bfgs_r2": -0.002682130410716521,
+      "gp_r2": 1.0,
+      "gp_expr": "OP_mul VAR_Ef VAR_q2"
+    },
+    {
+      "filename": "I.6.2a",
+      "true": "<C> <C> <C> OP_pow CONST_pi <C> OP_pow <C>",
+      "tf_acc": 0.2857142857142857,
+      "beam_acc": 0.0,
+      "bfgs_r2": -10.0,
+      "gp_r2": 0.9871170009883202,
+      "gp_expr": "OP_pow FUNC_sin FUNC_sin OP_add VAR_theta OP_add FUNC_arcsin FUNC_tanh OP_add OP_add OP_add FUNC_arcsin"
+    },
+    {
+      "filename": "I.12.11",
+      "true": "VAR_q VAR_Ef VAR_B VAR_v VAR_theta FUNC_sin OP_mul OP_add",
+      "tf_acc": 0.0,
+      "beam_acc": 0.0,
+      "bfgs_r2": -6.597366601890364e-05,
+      "gp_r2": 0.5934588457356115,
+      "gp_expr": "OP_mul OP_pow FUNC_exp VAR_q FUNC_sin FUNC_sin OP_mul FUNC_sin FUNC_tanh OP_add VAR_B FUNC_log"
+    },
+    {
+      "filename": "I.39.22",
+      "true": "VAR_T VAR_kb VAR_n VAR_V <C> OP_pow OP_mul",
+      "tf_acc": 0.0,
+      "beam_acc": 0.0,
+      "bfgs_r2": -0.01679161713411781,
+      "gp_r2": 0.9602669435986945,
+      "gp_expr": "OP_mul FUNC_log OP_mul VAR_kb OP_pow OP_add FUNC_log VAR_n FUNC_exp OP_mul OP_pow OP_add"
+    },
+    {
+      "filename": "I.48.2",
+      "true": "VAR_m VAR_c <C> OP_pow <C> <C> VAR_c <C>",
+      "tf_acc": 0.11764705882352941,
+      "beam_acc": 0.0,
+      "bfgs_r2": -2.773141721454252,
+      "gp_r2": 0.8529483229248982,
+      "gp_expr": "OP_mul VAR_c OP_mul FUNC_sin FUNC_tanh OP_add FUNC_tanh FUNC_sin VAR_c VAR_m OP_add OP_add"
+    },
+    {
+      "filename": "II.11.28",
+      "true": "<C> VAR_alpha VAR_n <C> <C> VAR_alpha VAR_n OP_mul",
+      "tf_acc": 0.23076923076923078,
+      "beam_acc": 0.07692307692307693,
+      "bfgs_r2": -0.0009100065234366461,
+      "gp_r2": 0.9978383857150078,
+      "gp_expr": "FUNC_exp FUNC_sin OP_mul VAR_n VAR_alpha"
+    },
+    {
+      "filename": "II.38.3",
+      "true": "VAR_A VAR_Y VAR_x VAR_d <C> OP_pow OP_mul",
+      "tf_acc": 0.0,
+      "beam_acc": 0.0,
+      "bfgs_r2": -0.036310155241563224,
+      "gp_r2": 0.8516055671440175,
+      "gp_expr": "OP_add OP_add FUNC_exp OP_add FUNC_log VAR_A FUNC_sin VAR_d OP_mul OP_add VAR_A FUNC_cos"
+    },
+    {
+      "filename": "I.18.14",
+      "true": "VAR_m VAR_r VAR_v VAR_theta FUNC_sin OP_mul",
+      "tf_acc": 0.0,
+      "beam_acc": 0.0,
+      "bfgs_r2": -0.003871592641073951,
+      "gp_r2": 0.9071389536538168,
+      "gp_expr": "FUNC_log OP_pow OP_pow FUNC_log OP_mul FUNC_log FUNC_arcsin FUNC_tanh CONST_pi OP_add FUNC_cos CONST_pi"
+    },
+    {
+      "filename": "III.4.32",
+      "true": "<C> <C> VAR_h VAR_omega CONST_pi <C> OP_pow VAR_T",
+      "tf_acc": 0.16666666666666666,
+      "beam_acc": 0.05555555555555555,
+      "bfgs_r2": -0.004474778928949874,
+      "gp_r2": 0.8138826759766513,
+      "gp_expr": "OP_add VAR_T OP_add OP_add OP_pow OP_add VAR_T OP_add VAR_kb OP_pow OP_mul VAR_kb"
+    },
+    {
+      "filename": "I.29.4",
+      "true": "VAR_omega VAR_c <C> OP_pow OP_mul",
+      "tf_acc": 0.0,
+      "beam_acc": 0.0,
+      "bfgs_r2": -0.039979368612401034,
+      "gp_r2": 0.8282662908900018,
+      "gp_expr": "FUNC_log OP_mul OP_pow FUNC_tanh FUNC_log VAR_c OP_add FUNC_tanh FUNC_arcsin VAR_omega FUNC_log FUNC_tanh"
+    },
+    {
+      "filename": "II.34.29a",
+      "true": "<C> VAR_h VAR_q CONST_pi <C> OP_pow VAR_m <C>",
+      "tf_acc": 0.2,
+      "beam_acc": 0.1,
+      "bfgs_r2": -0.0005951716947285579,
+      "gp_r2": 0.8238943297934723,
+      "gp_expr": "OP_pow FUNC_tanh FUNC_tanh FUNC_log OP_add OP_pow FUNC_tanh FUNC_tanh FUNC_tanh FUNC_log FUNC_log VAR_q"
+    }
+  ],
+  "summary": {
+    "gp_mean": 0.8808228065358618,
+    "gp_good": 15,
+    "gp_great": 3
+  }
+}
